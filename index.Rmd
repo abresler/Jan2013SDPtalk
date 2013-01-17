@@ -414,6 +414,23 @@ ggplot(schooldat[schooldat$schid<25 & schooldat$grade==3,],
 
 ---
 
+## Ordering
+
+A final step we can take is to give some structure and order to arrangement of the schools.
+
+```{r meanplot5, echo=FALSE,out.width='750px',out.height='480px',dev='svg'}
+ggplot(schooldat[schooldat$schid<25 & schooldat$grade==3,],
+       aes(x=factor(reorder(schid,meanR)),ymin=meanR-0.5*sdR,ymax=meanR+0.5*sdR,
+                     color=perminority))+geom_errorbar(alpha=0.7)+
+  geom_point(aes(y=meanR,size=count))+
+  theme_dpi()+labs(x="School",y="Mean Reading Score",title="Mean School Reading Score")+geom_hline(yintercept=421,color=I("red"))+
+  geom_hline(yintercept=480,color=I("yellow"))
+
+```
+
+
+---
+
 ## Raw Data
 
 Sometimes, we can get away with showing the raw data, that is, all data points. We may want to do this for a few reasons:

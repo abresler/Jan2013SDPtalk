@@ -357,6 +357,16 @@ We still aren't sure what the mean scale score means. Let's see a couple more ad
 
 ---
 
+## Ordering
+
+A final step we can take is to give some structure and order to arrangement of the schools.
+
+<img src="figure/meanplot5.svg" title="plot of chunk meanplot5" alt="plot of chunk meanplot5" width="750px" height="480px" />
+
+
+
+---
+
 ## Raw Data
 
 Sometimes, we can get away with showing the raw data, that is, all data points. We may want to do this for a few reasons:
@@ -654,20 +664,21 @@ attached base packages:
 [8] base     
 
 other attached packages:
- [1] hexbin_1.26.0    lattice_0.20-13  mgcv_1.7-22      vcd_1.2-13      
- [5] colorspace_1.2-0 MASS_7.3-22      ggthemes_1.3.1   eeptools_0.1    
- [9] mapproj_1.2-0    maps_2.3-0       proto_0.3-10     plyr_1.8        
-[13] ggplot2_0.9.3    stringr_0.6.2    knitr_1.0.1      slidify_0.3.3   
-[17] devtools_0.8    
+ [1] hexbin_1.26.0        lattice_0.20-13      mgcv_1.7-22         
+ [4] vcd_1.2-13           colorspace_1.2-0     MASS_7.3-22         
+ [7] ggthemes_1.3.1       knitr_1.0.1          slidifyLibraries_0.1
+[10] markdown_0.5.4       whisker_0.3-2        slidify_0.3.3       
+[13] devtools_0.8         eeptools_0.1         mapproj_1.2-0       
+[16] maps_2.3-0           proto_0.3-10         plyr_1.8            
+[19] ggplot2_0.9.3        stringr_0.6.2       
 
 loaded via a namespace (and not attached):
  [1] dichromat_1.2-4    digest_0.6.0       evaluate_0.4.3    
  [4] formatR_0.7        gtable_0.1.2       httr_0.2          
- [7] labeling_0.1       markdown_0.5.4     Matrix_1.0-10     
-[10] memoise_0.1        munsell_0.4        nlme_3.1-106      
-[13] parallel_2.15.2    RColorBrewer_1.0-5 RCurl_1.95-3      
-[16] reshape2_1.2.2     scales_0.2.3       tools_2.15.2      
-[19] whisker_0.3-2      yaml_2.1.5        
+ [7] labeling_0.1       Matrix_1.0-10      memoise_0.1       
+[10] munsell_0.4        nlme_3.1-106       parallel_2.15.2   
+[13] RColorBrewer_1.0-5 RCurl_1.95-3       reshape2_1.2.2    
+[16] scales_0.2.3       tools_2.15.2       yaml_2.1.5        
 ```
 
 ---
