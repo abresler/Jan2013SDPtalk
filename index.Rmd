@@ -22,7 +22,7 @@ mode        : standalone # {standalone, draft}
 
 ## Follow Along
 
-### http://www.myurl.com/presentation
+### http://jknowles.github.com/Jan2013SDPtalk
 
 
 --- &twocol w1:50% w2:50%
